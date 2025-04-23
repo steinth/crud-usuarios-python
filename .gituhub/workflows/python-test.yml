@@ -1,21 +1,12 @@
 name: Python Application Tests
 
 on:
-<<<<<<< HEAD
   push:
     branches:
       - master
   pull_request:
     branches:
       - master
-=======
-push:
-branches:
-- main
-pull_request:
-branches:
-- main
->>>>>>> 7b011a0a053e17cd378fd1d18bb28dbdd3fafcfa
 jobs:
   test:
     runs-on: ubuntu-latest
