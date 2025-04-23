@@ -8,7 +8,8 @@ def criar_usuario(nome, email, senha, cpf):
         'nome': nome,
         'email': email,
         'senha': senha,
-        'cpf': cpf  
+        'cpf': cpf
+          
     }
     usuarios.append(usuario)
     return "Usuário criado com sucesso."
