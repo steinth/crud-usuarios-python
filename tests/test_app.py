@@ -6,7 +6,7 @@ class TestCRUDUsuarios(unittest.TestCase):
     def test_criar_usuario(self):
         resultado = criar_usuario("João", "joao@email.com", "1234", "11111111111")
         self.assertEqual(resultado, "Usuário criado com sucesso.")
-        self.assertEqual(len(usuarios), 2)
+        self.assertEqual(len(usuarios), 2) 
 
     def test_listar_usuarios(self):
         criar_usuario("Maria", "maria@email.com", "abcd", "22222222222")
